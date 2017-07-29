@@ -1,0 +1,17 @@
+{
+    "name": "operations247-attackmon",
+    "handle": [
+        {
+         "path": "/",
+          "https": true,
+          "allow_dev_certs": true,
+          "allow_desktop_certs": false,
+          "client_certs": "require",
+        }
+
+  ],
+  "packaging" : {
+      "type": "custom_service",
+      "requires": [ "python >= 3.4.0", "httpd" ]
+  }
+}
